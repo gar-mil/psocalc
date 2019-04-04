@@ -1,0 +1,31 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Phantasy Star Online: Blue Burst - Section ID Calculator</title>
+    <link rel="stylesheet" type="text/css" href="SectionIDCalc.css">
+	<script type="text/javascript" src="SectionIDCalc.js"></script>
+</head>
+<body>
+	<div>
+		<select id="classSelect" onchange="calcInput();">
+			<option value="HUmar">HUmar</option>
+			<option value="HUnewearl">HUnewearl</option>
+			<option value="HUcast">HUcast</option>
+			<option value="HUcaseal">HUcaseal</option>
+			<option value="RAmar">RAmar</option>
+			<option value="RAmarl">RAmarl</option>
+			<option value="RAcast">RAcast</option>
+			<option value="RAcaseal">RAcaseal</option>
+			<option value="FOmar">FOmar</option>
+			<option value="FOmarl">FOmarl</option>
+			<option value="FOnewm">FOnewm</option>
+			<option value="FOnewearl">FOnewearl</option>
+		</select>
+	</div>
+	<div>
+		<input type="text" id="nameEntry" maxlength="9" placeholder="Enter character name..." oninput="calcInput();">
+	</div>
+	<div id="tempoutput"></div>
+</body>
+</html>
