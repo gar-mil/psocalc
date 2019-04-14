@@ -56,6 +56,10 @@ See the attached license file for a full explanation of your rights.
 
 ### Changelog ###
 
+v1.1.1
+
+- Minor whitespace cleanup and removal of a dead CSS link
+
 v1.1
 
 - Section ID now auto-calculates when name or class is changed
