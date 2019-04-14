@@ -1,9 +1,9 @@
 // Associate each possible formula result with a Section ID
 var sectionID = {
-    "0": "Viridia",
-    "1": "Greenill",
-    "2": "Skyly",
-    "3": "Bluefull",
+	"0": "Viridia",
+	"1": "Greenill",
+	"2": "Skyly",
+	"3": "Bluefull",
 	"4": "Purplenum",
 	"5": "Pinkal",
 	"6": "Redria",
