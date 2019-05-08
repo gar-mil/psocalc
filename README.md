@@ -19,7 +19,7 @@ Select your character class in the dropdown menu, then start typing your charact
 
 ### Formula ###
 
-Phantasy Star Online's Section IDs are not random; they can predicted fairly simply as long as you know your game version and server's class offset and character values.
+Phantasy Star Online's Section IDs are not random; they can be predicted fairly simply as long as you know your game version and server's class offset and character values.
 
 Every letter, number, and punctuation in a PSO character's name are assigned a specific known value from 0-9. The value for each letter is added up into a subtotal.
 Then, a class offset is added to the subtotal. Every class in the game has a known value ranging from 0-9.
